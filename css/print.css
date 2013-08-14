@@ -1,0 +1,26 @@
+
+body {
+margin:0;
+padding:0;
+background: #FFF;
+font: 12pt Arial, Helvetica,"Lucida Grande", serif; color: #000;
+}
+
+a, #header, #primary, #secondary, #breadcrumb, #sidebar-left, #sidebar-right, #footer, #closure, .extra-links, #content .box { display:none }
+
+#content {
+color: #000;
+font: 12pt Arial, Helvetica,"Lucida Grande", serif;
+background: transparent;
+width: auto;
+border: none;
+margin: 0 5%;
+padding: 0;
+margin-left: 10%;
+
+}
+
+#comments {
+page-break-before: always;
+}
+
