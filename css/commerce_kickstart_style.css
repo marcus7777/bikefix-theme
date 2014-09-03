@@ -1,3 +1,243 @@
+/**************************************************
+ * * --
+ * * 10. marcus adding
+ * * --
+ ***************************************************/
+.ui-accordion .ui-accordion-content-active {
+    display: block;
+    font-size: 0.7em;
+}
+.popOut .ui-accordion {
+    margin-bottom: 20px;
+    margin-left: 1%;
+    width: 98%;
+}
+.ui-accordion .ui-accordion-header a {
+	display: block;
+	font-size: 0.62em;
+	padding: 0.2em !important;
+	text-indent: 2.7em;
+}
+#zone-postscript .block-blog-block .block-inner .block-title,
+#zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content a {
+	font-family: 'Lato',Helvetica,Arial,sans-serif;
+}
+
+.field-name-field-baby-ducks .node-page { margin: 0;}
+.field-name-field-baby-ducks,
+.view-id-baby_ducks .inline, 
+.view-id-blog .inline, 
+.view-world .inline, 
+.node-product-type-product-list .inline {
+  display:inline-block;
+  min-height: 200px;
+  min-width: 290px;
+}
+.view-display-products .inline {
+  display:inline-block;
+  min-height: 165px;
+  width: 229px;
+}
+.view-display-products .inline h2 a {
+  max-width: 200px;
+}
+
+.inline .node-page {
+  margin: 0;
+}
+
+.view-world h2 a:link,
+.node-product-type-product-list div.content h2 a:link,
+.view-world h2 a:visited,
+.node-product-type-product-list div.content h2 a:visited,
+.field-name-field-baby-ducks h2.node-title a:link,
+.field-name-field-baby-ducks h2.node-title a:visited,
+.inline h2.node-title a:link,
+.inline h2.node-title a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+.view-display-products .inline h2.node-title {
+    margin-top: 100px;
+}
+
+.node-product-type-product-list div.content h2,
+.view-world h2,
+.field-name-field-baby-ducks h2.node-title,
+.inline h2.node-title {
+    background: none repeat scroll 0 0 #000;
+    font-size: 17px;
+    opacity: 0.8;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+    margin-top: 155px;
+    padding: 0 4px;
+    max-width: 294px;
+    position: absolute;
+}
+body .view-display-products .inline h2 {
+  margin-top: 100px;
+}
+ul.rslides li h3.headline {
+    background: none repeat scroll 0 0 #000;
+    font-size: 23px;
+    opacity: 0.8;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+    margin-top: 10px;
+    padding: 0 4px;
+    color:#fff;
+    left:2px;
+    position: absolute;
+}
+ul.rslides li h4.tagline {
+    background: none repeat scroll 0 0 #000;
+    font-size: 20px;
+    opacity: 0.8;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+    margin-top: 440px;
+    padding: 0 4px;
+    position: absolute;
+    right:2px;
+    color:#fff;
+    padding: 0 51px 0 4px;
+    text-indent: 0;
+}
+.images .field-name-field-image {float:none;}
+.node-blog-post .field-name-field-images {float: left;}
+.node-blog-post .field-name-body {clear:left;}
+
+body p {color: #58595b; font-family:'Lato',Helvetica,Arial,sans-serif; line-height:1.4em; }
+body .item-list ul li.inline {margin: 0; padding: 0;}
+.form-item-line-item-fields-field-options-picked-er-und {display:none}
+.thumbs .thumbs-inner {
+    height:60px;
+    width:3000px
+}
+.thumbs {
+    height: 60px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 10px;
+}
+.thumbs .thumbs-inner div {
+  padding:0 2px;
+}
+
+.thumbs .thumbs-inner .field-name-field-images {
+ float: left; 
+}
+iframe {max-width: 100%;}
+
+/**************************************************
+ * * --
+ * * 11. david adding
+ * * --
+ ***************************************************/
+
+h1#page-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+    text-transform: none;
+}
+.node-product-type-product-list div.content h2, .view-world h2, .field-name-field-baby-ducks h2.node-title, .inline h2.node-title {
+    font-size: 17px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato',Helvetica,Arial,sans-serif;
+    color: #656565;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+#zone-postscript .block h2 {
+  text-indent:0;
+}
+.section-footer h2{
+  text-indent:19px;
+  color:#000;
+  font-size: 22px;
+}
+a:link, a:visited {
+    color: #aaa;
+    text-decoration: none;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark, audio, video {
+    font: inherit;
+    float: right;
+}
+.page-blog .region-content  .view-id-blog .field-name-body {
+}
+.page-blog .region-content .view-id-blog .view-content .views-row  {
+	   border: medium none;
+	   width: 100%;
+   }
+
+.page-blog .region-content  .view-id-blog .field-name-field-image, 
+.page-blog .region-content  .view-id-blog .field-name-field-images {
+	border: 1px solid #808080;
+	display: inline-block;
+	margin: 10px;
+	padding: 1px;
+}
+
+.page-blog .region-content  .view-id-blog .field-name-field-image:hover, 
+.page-blog .region-content  .view-id-blog .field-name-field-images:hover {
+  border:4px solid #999999 ;  
+  margin:7px;
+}
+
+.page-blog .region-content  .view-id-blog .views-field-title h1 {
+  text-indent: 0;
+}
+.page-blog .region-content  .view-id-blog .views-field-created {
+  background: none repeat scroll 0 0 #555555;
+  border-radius: 5px 5px 5px 5px;
+  clear: right;
+  color: #FFFFFF;
+  float: right;
+  margin: 16px 6px;
+  padding: 3px 7px;
+}
+
+.node-type-blog-post h1#page-title, .node-type-blog-post .comment-wrapper .title {
+    color: #656565;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-transform: none;
+}
+.node-product-type .other_2 .field-name-commerce-price {
+    font-family:'Lato',Helvetica,Arial,sans-serif; 
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0px 24px 20px;
+    padding: 0;
+}
+body .node-product-type .other_2 .field-type-commerce-product-reference form.commerce-add-to-cart {float: right; background:none; padding-top: 7px; }
+.node-product-type .other_2 .field-type-commerce-product-reference {
+    background: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-submit {
+    margin-top: 0px;
+}
+ul.nice-menu-down {
+  border: 0 none;
+  margin-right: -20px;
+  margin-top: 88px;
+  float: right;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  font-family:'Lato',Helvetica,Arial,sans-serif; 
+}
+ul.nice-menu-down li {
+  background: none repeat scroll 0 0 #DDDDDD;
+}
+
 /*@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 /* This file will hold styles for the mobile version of your website (mobile first). */
@@ -39,6 +279,43 @@
   7.1. Blog comments
 8. User account
 ------------------------------------------------*/
+
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Lato Regular"), local("Lato-Regular"), url("http://themes.googleusercontent.com/static/fonts/lato/v7/9k-RPmcnxYEPm8CNFsH2gg.woff") format("woff");
+}
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 900;
+	src: local("Lato Black"), local("Lato-Black"), url("http://themes.googleusercontent.com/static/fonts/lato/v7/BVtM30trf7q_jfqYeHfjtA.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'ubuntu-titletitle';
+    src: url('Ubuntu-Title-webfont.eot');
+    src: url('Ubuntu-Title-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Ubuntu-Title-webfont.woff') format('woff'),
+         url('Ubuntu-Title-webfont.ttf') format('truetype'),
+         url('Ubuntu-Title-webfont.svg#ubuntu-titletitle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'negotiatefree';
+    src: url('negotiate_free-webfont.eot');
+    src: url('negotiate_free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('negotiate_free-webfont.woff') format('woff'),
+         url('negotiate_free-webfont.ttf') format('truetype'),
+         url('negotiate_free-webfont.svg#negotiatefree') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /**************************************************
 * --
 * 1. Global
@@ -138,7 +415,7 @@ body {
   /* HP blocks: Top advert */
   background-color: #2698F2;
   color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
+  font-family:'Lato',Helvetica,Arial,sans-serif;
   font-size: 16px;
   padding: 5px 10px 20px 10px;
   position: relative;
@@ -195,12 +472,12 @@ body {
     font-size: 27px;
     margin-top: 2px; }
   .block-shipping-discount #shipping #shipping_message {
-    font-family: "Open Sans", sans-serif;
+    font-family:'Lato',Helvetica,Arial,sans-serif;
     font-weight: 400; }
   .block-shipping-discount #shipping #shipping_message span,
   .block-shipping-discount #shipping #shipping_message span em,
   .block-shipping-discount #shipping #shipping_currency {
-    font-family: "Open Sans", sans-serif;
+    font-family:'Lato',Helvetica,Arial,sans-serif;
     font-weight: 700; }
 
 #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content,
@@ -377,185 +654,282 @@ div.messages.commerce-add-to-cart-confirmation {
   background: url("../images/btn_twitter.png") no-repeat; }
 .not-logged-in #block-connector-one-click-block #edit-oauthconnector-google {
   background: url("../images/btn_google.png") no-repeat; }
-/**************************************************
- * * --
- * * 10. marcus adding
- * * --
- ***************************************************/
 
-
-.field-name-field-baby-ducks .node-page { margin: 0;}
-.field-name-field-baby-ducks,
-.view-id-baby_ducks .inline, 
-.view-id-blog .inline, 
-.view-world .inline, 
-.node-product-type-product-list .inline {
-  display:inline-block;
-  min-height: 200px;
-  min-width: 290px;
-}
-.view-display-products .inline {
-  display:inline-block;
-  min-height: 165px;
-  width: 229px;
-}
-.view-display-products .inline h2 a {
-  max-width: 200px;
-}
-
-.inline .node-page {
-  margin: 0;
-}
-
-.view-world h2 a:link,
-.node-product-type-product-list div.content h2 a:link,
-.view-world h2 a:visited,
-.node-product-type-product-list div.content h2 a:visited,
-.field-name-field-baby-ducks h2.node-title a:link,
-.field-name-field-baby-ducks h2.node-title a:visited,
-.inline h2.node-title a:link,
-.inline h2.node-title a:visited {
-    color: #FFF;
-    text-decoration: none;
-}
-.view-display-products .inline h2.node-title {
-    margin-top: 100px;
-}
-
-.node-product-type-product-list div.content h2,
-.view-world h2,
-.field-name-field-baby-ducks h2.node-title,
-.inline h2.node-title {
-    background: none repeat scroll 0 0 #666666;
-    font-size: 17px;
-    opacity: 0.8;
-    filter:alpha(opacity=80); /* For IE8 and earlier */
-    margin-top: 155px;
-    padding: 0 4px;
-    max-width: 294px;
-    position: absolute;
-}
-body .view-display-products .inline h2 {
-  margin-top: 100px;
-}
-ul.rslides li h3.headline {
-    background: none repeat scroll 0 0 #666666;
-    font-size: 23px;
-    opacity: 0.8;
-    filter:alpha(opacity=80); /* For IE8 and earlier */
-    margin-top: 10px;
-    padding: 0 4px;
-    color:#000;
-    position: absolute;
-}
-ul.rslides li h4.tagline {
-    background: none repeat scroll 0 0 #666666;
-    font-size: 20px;
-    opacity: 0.8;
-    filter:alpha(opacity=80); /* For IE8 and earlier */
-    margin-top: 440px;
-    padding: 0 4px;
-    position: absolute;
-    right:0;
-    color:#fff;
-}
-.images .field-name-field-image {float:none;}
-.node-blog-post .field-name-field-images {float: left;}
-.node-blog-post .field-name-body {clear:left;}
-
-body p {color: #58595b; font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; line-height:1.4em; }
-body .item-list ul li.inline {margin: 0; padding: 0;}
-.form-item-line-item-fields-field-options-picked-er-und {display:none}
-.thumbs .thumbs-inner {
-    height:60px;
-    width:3000px
-}
-.thumbs {
-    height: 60px;
+/*
+ * mobile
+ */ 
+@media all and (max-width: 739px) {
+  body .view-display-products .inline {
+    max-width: 49%;
     overflow: hidden;
-    width: 460px;
-    margin-top: 10px;
+    min-height: auto;
+  }
+  body .view-display-products .inline {
+    max-width: 49%;
+    overflow: hidden;
+    min-height: auto;
+  }
+  body .view-display-products .inline h2,
+  body .view-display-products .inline h2.node-title {
+    margin-top: 0;
+    text-indent: 0;
+  }
+  body .view-display-products .inline h2.node-title a {
+    display: block;
+    width: 133px;
+  }
+  body ul.nice-menu-down {
+    background-color: #58595B;
+    display: table;
+    float: none;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+  }
+  body ul.nice-menu-down li a {
+    padding:10px 0px;
+    background-color: #58595B;
+    text-align: center;
+    color:#fff;
+  }
+  body ul.nice-menu-down {
+    background-color: #58595B;
+    display: table;
+    float: none;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+  }
+  body  ul.nice-menu-down li a {
+    padding:10px 0px;
+    background-color: #58595B;
+    text-align: center;
+    color:#fff;
+  }
+  body ul.nice-menu-down li {
+    background: #58595B !important;
+    overflow: hidden;
+    display: inline-block;
+    display: table-cell;
+    border: medium none;
+    float: none;
+  }
+  body ul.nice-menu-down li {
+    background: #58595B !important;
+    overflow: hidden;
+    display: inline-block;
+    display: table-cell;
+    border: medium none;
+    float: none;
+  }
+  body .field-name-field-baby-ducks, 
+  body .view-id-baby_ducks .inline, 
+  body .view-id-blog .inline, 
+  body .view-world .inline, 
+  body .node-product-type-product-list .inline {
+    display: inline-block;
+    max-width: 49%;
+    min-height: 80px;
+    min-width: 130px;
+  }
+  body .node-product-type-product-list div.content h2,
+  body .view-world h2, .field-name-field-baby-ducks h2.node-title,
+  body .inline h2.node-title {
+    margin-top: 0;
+    max-width: 44%;
+    text-indent: 0;
+  }
 }
-.thumbs .thumbs-inner div {
-  padding:0 2px;
+@media all and (max-width: 340px) {
+  body .view-display-products .inline {
+    max-width: 49%;
+  }
+  body .view-display-products .inline {
+    max-width: 49%;
+  }
+
+  body ul.nice-menu-down {
+    font-size: .8em;
+  }
+
+  body .field-name-field-baby-ducks, 
+  body .view-id-baby_ducks .inline, 
+  body .view-id-blog .inline, 
+  body .view-world .inline, 
+  body .node-product-type-product-list .inline {
+    display: inline-block;
+    max-width: 100%;
+    min-height: 80px;
+    min-width: 130px;
+  }
+  body .node-product-type-product-list div.content h2,
+  body .view-world h2, .field-name-field-baby-ducks h2.node-title,
+  body .inline h2.node-title {
+    max-width: 90%;
+  }
 }
 
-.thumbs .thumbs-inner .field-name-field-images {
- float: left; 
+@media all and (max-width: 979px) and (min-width: 740px)  {
+  body .field-name-field-baby-ducks,
+  body .view-id-baby_ducks .inline,
+  body .view-id-blog .inline,
+  body .view-world .inline,
+  body .node-product-type-product-list .inline {
+    display: inline-block;
+    max-width: 224px;
+    min-height: 150px;
+    min-width: 224px;
+  }
+  ul.rslides li h4.tagline {
+    margin-top: 308px;
+  }
+  body .node-product-type-product-list div.content h2,
+  body .view-world h2,
+  body .field-name-field-baby-ducks h2.node-title,
+  body .inline h2.node-title {
+    margin-top: 111px;
+    max-width: 224px;
+  }
 }
-iframe {max-width: 100%;}
+.responsive-layout-mobile .view-display-products .inline {
+    max-width: 49%;
+    overflow: hidden;
+    min-height: auto;
+}
+body.responsive-layout-mobile .view-display-products .inline h2,
+.responsive-layout-mobile .view-display-products .inline h2.node-title {
+    margin-top: 0;
+    text-indent: 0;
+}
+.responsive-layout-mobile .view-display-products .inline h2.node-title a {
+  display: block;
+  width: 133px;
+}
+.responsive-layout-normal .block-nice-menus,
+.responsive-layout-narrow .block-nice-menus {
+    float: right;
+    line-height: normal;
+    width: 480px;
+    z-index: 10;
+}
+.responsive-layout-narrow .block-nice-menus {
+    width: 410px;
+}
+ul.nice-menu-down li a {
+  padding: 0.3em 5px;
+ color:#353535;
+}
+.responsive-layout-mobile ul.nice-menu-down {
+  background-color: #58595B;
+  display: table;
+  float: none;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  text-align: center;
+  width: 100%;
+}
+.responsive-layout-mobile ul.nice-menu-down li a {
+  padding:10px 0px;
+  background-color: #58595B;
+  text-align: center;
+  color:#fff;
+}
+.responsive-layout-narrow ul.nice-menu-down {
+  font-size: 1.1em;
+}
+.responsive-layout-mobile ul.nice-menu-down li {
+  background: #58595B !important;
+  overflow: hidden;
+  display: inline-block;
+  display: table-cell;
+  border: medium none;
+  float: none;
+}
+.block-nice-menus div.content {
+  
+}
+.responsive-layout-narrow .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links {
+  padding: 0 7px;
+}
 
-/**************************************************
- * * --
- * * 11. david adding
- * * --
- ***************************************************/
+/*
+ * move to pop-out-and-pick module
+ */
 
+#pop-out-and-pick-form label .group-price {
+  float: right;
+}
+html body #views-form-commerce-cart-form-default table td,
+html body #commerce-checkout-form-checkout .view-commerce-cart-summary table td,
+html body #commerce-checkout-form-review .view-commerce-cart-summary table td,
+html body .page-user-orders .view-commerce-line-item-table table td,
+html body .view-commerce-backoffice-user-orders table td {
+  padding:5px 10px;
+  vertical-align: middle;
+}
+html body #views-form-commerce-cart-form-default table td .price,
+html body #commerce-checkout-form-checkout .view-commerce-cart-summary table td .price,
+html body #commerce-checkout-form-review .view-commerce-cart-summary table td .price,
+html body .page-user-orders .view-commerce-line-item-table table td .price,
+html body .view-commerce-backoffice-user-orders table td .price {
+  text-align: right;
+  width: 100%;
+  display: block;
+}	
+.left {
+  padding-left: 10px;
+  line-height: 50px;
+  display: inline-block;
+  float: left;
+  min-height: 25px;
+  min-width: 118px;
+  text-align: left;
+  text-indent: 0;
+}
+.right {
+  clear: right;
+  display: inline-block;
+  float: right;
+  min-height: 25px;
+  min-width: 118px;
+  text-align: right;
+}
 h1#page-title {
-    font-size: 28px;
-    font-weight: 600;
-    margin-left: 10px;
-    text-transform: none;
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 10px;
+  text-indent: 0;
+  text-transform: none;
 }
-.node-product-type-product-list div.content h2, .view-world h2, .field-name-field-baby-ducks h2.node-title, .inline h2.node-title {
-    font-size: 17px;
+@media print
+{ 
+  #region-page-bottom,
+  #overlay-tabs,
+  #section-footer,
+  #section-header,
+  #branding ul.tabs,
+  div.breadcrumb,
+  #toolbar {
+    display: none !important;
+  }
+  body {
+    padding-top: 0;
+  }
+  table {width:100%}
+  .field-name-commerce-customer-shipping {padding:5em 3em 6em}
+.addressfield-container-inline:after {
+    clear: none;
+    content: "";
+    display: block;
+    height: auto;
+    visibility: hidden;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Open Sans",sans-serif;
-    color: #656565;
-    font-weight: 300;
-    letter-spacing: 0;
-    text-indent:2em;
-}
-#zone-postscript .block h2 {
-  text-indent:0;
-}
-.section-footer h2{
-  text-indent:19px;
-  color:#000;
-  font-size: 22px;
-}
-a:link, a:visited {
-    color: #aaa;
-    text-decoration: none;
-}
-h3 {
-    font-size: 18px;
-    font-weight: 500;
-
-}
-.responsive-layout-normal .zone-branding .region-branding .logo-img {
-    text-align: left;
-    margin-bottom: -80px;
-}
-.responsive-layout-narrow .zone-branding .region-branding .logo-img {
-    text-align: left;
-    margin-bottom: -100px;
-}
-canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark, audio, video {
-    font: inherit;
-    float: right;
-}
-.node-type-blog-post h1#page-title, .node-type-blog-post .comment-wrapper .title {
-    color: #656565;
-    font-weight: 400;
-    margin-bottom: 0;
-    text-transform: none;
-}
-.node-product-type .other_2 .field-name-commerce-price {
-    float: right;
-    font-family: "Open Sans",sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    margin: 0px 24px 20px;
-    padding: 0;
-}
-body .node-product-type .other_2 .field-type-commerce-product-reference form.commerce-add-to-cart {float: right; background:none; padding-top: 7px; }
-.node-product-type .other_2 .field-type-commerce-product-reference {
-    background: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-.node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-submit {
-    margin-top: 0px;
 }

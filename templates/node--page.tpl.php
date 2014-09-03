@@ -33,6 +33,7 @@
   <?php endif; ?>
   <?php print render($title_suffix); ?>
   <div class="container-24 grid-12 clearfix">
+    <?php if ($content['field_image']) :  ?>
     <div class="images" >
       <?php print render($content['field_image']); ?>
       <div class="thumbs" >
@@ -41,6 +42,7 @@
         </div> 
       </div>
     </div>
+    <?php endif; ?>
     <div class="other" >
       <?php
         // We hide the comments and links now so that we can render them later.
@@ -63,7 +65,9 @@
   </div>
   <div class="container-24 grid-24 clearfix">
     <?php if (!empty($content['links'])): ?>
-    <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
+    <?php /* <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
+           */
+    ?>
     <?php endif; ?>
     <?php
       print render($content['field_space_under']);

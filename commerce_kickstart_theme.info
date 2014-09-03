@@ -59,12 +59,15 @@ zones[footer2] = Footer second
 css[commerce_kickstart_style.css][name] = Commerce Kickstart theme global style.
 css[commerce_kickstart_style.css][description] = This file holds all the globally active custom CSS of Commerce Kickstart theme.
 css[commerce_kickstart_style.css][options][weight] = 11
+
 settings[alpha_css][commerce_kickstart_style.css] = 'commerce_kickstart_style.css'
 
 css[print.css][name] = bikefix order custom print styles
-css[print.css][description] = This file holds all the custom print CSS of your theme.
+css[print.css][description] = This file holds all the custom print CSS.
 css[print.css][options][weight] = 12
 css[print.css][options][media] = print
+
+settings[alpha_css][print.css] = 'print.css'
 
 ; OPTIONAL LIBRARIES
 

@@ -49,6 +49,7 @@
     <?php endif; ?>
     <?php
   
+      print render($content['field_space_under']);
   if ($content['product:field_options']['#object']->field_options  != array()) {
     print "<h2>Pick Your Options</h2>" . render($content['product:field_options'] );
     print "<div class='other_2'>" . render($content) ."</div>"; 
