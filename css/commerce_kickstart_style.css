@@ -50,21 +50,21 @@
 .node-product-type-product-list div.content h2 a:link,
 .view-world h2 a:visited,
 .node-product-type-product-list div.content h2 a:visited,
-.field-name-field-baby-ducks h2.node-title a:link,
-.field-name-field-baby-ducks h2.node-title a:visited,
-.inline h2.node-title a:link,
-.inline h2.node-title a:visited {
+.field-name-field-baby-ducks h2 a:link,
+.field-name-field-baby-ducks h2 a:visited,
+.inline h2 a:link,
+.inline h2 a:visited {
     color: #FFF;
     text-decoration: none;
 }
-.view-display-products .inline h2.node-title {
+.view-display-products .inline h2 {
     margin-top: 100px;
 }
 
 .node-product-type-product-list div.content h2,
 .view-world h2,
-.field-name-field-baby-ducks h2.node-title,
-.inline h2.node-title {
+.field-name-field-baby-ducks h2,
+.inline h2 {
     background: none repeat scroll 0 0 #000;
     font-size: 17px;
     opacity: 0.8;
@@ -126,7 +126,12 @@ body .item-list ul li.inline {margin: 0; padding: 0;}
  float: left; 
 }
 iframe {max-width: 100%;}
-
+.node-video-page .field-name-field-baby-ducks {
+}
+.field-name-field-baby-ducks .field-items .field-item {
+	display:inline-block;
+/*	margin: 0 0 0 8px; */
+}
 /**************************************************
  * * --
  * * 11. david adding
@@ -139,7 +144,7 @@ h1#page-title {
     margin-left: 10px;
     text-transform: none;
 }
-.node-product-type-product-list div.content h2, .view-world h2, .field-name-field-baby-ducks h2.node-title, .inline h2.node-title {
+.node-product-type-product-list div.content h2, .view-world h2, .field-name-field-baby-ducks h2, .inline h2 {
     font-size: 17px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -669,12 +674,11 @@ div.messages.commerce-add-to-cart-confirmation {
     overflow: hidden;
     min-height: auto;
   }
-  body .view-display-products .inline h2,
-  body .view-display-products .inline h2.node-title {
+  body .view-display-products .inline h2 {
     margin-top: 0;
     text-indent: 0;
   }
-  body .view-display-products .inline h2.node-title a {
+  body .view-display-products .inline h2 a {
     display: block;
     width: 133px;
   }
@@ -739,8 +743,8 @@ div.messages.commerce-add-to-cart-confirmation {
     min-width: 130px;
   }
   body .node-product-type-product-list div.content h2,
-  body .view-world h2, .field-name-field-baby-ducks h2.node-title,
-  body .inline h2.node-title {
+  body .view-world h2, .field-name-field-baby-ducks h2,
+  body .inline h2 {
     margin-top: 0;
     max-width: 44%;
     text-indent: 0;
@@ -769,8 +773,8 @@ div.messages.commerce-add-to-cart-confirmation {
     min-width: 130px;
   }
   body .node-product-type-product-list div.content h2,
-  body .view-world h2, .field-name-field-baby-ducks h2.node-title,
-  body .inline h2.node-title {
+  body .view-world h2, .field-name-field-baby-ducks h2,
+  body .inline h2 {
     max-width: 90%;
   }
 }
@@ -791,8 +795,8 @@ div.messages.commerce-add-to-cart-confirmation {
   }
   body .node-product-type-product-list div.content h2,
   body .view-world h2,
-  body .field-name-field-baby-ducks h2.node-title,
-  body .inline h2.node-title {
+  body .field-name-field-baby-ducks h2,
+  body .inline h2 {
     margin-top: 111px;
     max-width: 224px;
   }
@@ -802,12 +806,11 @@ div.messages.commerce-add-to-cart-confirmation {
     overflow: hidden;
     min-height: auto;
 }
-body.responsive-layout-mobile .view-display-products .inline h2,
-.responsive-layout-mobile .view-display-products .inline h2.node-title {
+.responsive-layout-mobile .view-display-products .inline h2 {
     margin-top: 0;
     text-indent: 0;
 }
-.responsive-layout-mobile .view-display-products .inline h2.node-title a {
+.responsive-layout-mobile .view-display-products .inline h2 a {
   display: block;
   width: 133px;
 }
@@ -910,13 +913,23 @@ h1#page-title {
   text-transform: none;
 }
 .ui-accordion .ui-accordion-header {
-	font-size: 1.4em;
+  font-size: 1.4em;
+}
+.ui-accordion .ui-accordion-header a {
+  font-size: 14px;
 }
 .button {
   padding:10px 0;
 }
+.options-title {
+  font-size: 20px;
+}
+
 .ui-accordion .option-info {
-	font-size: 1.1em;
+  font-size: 14px;
+}
+.ui-accordion .option-info img {
+	float: right;
 }
 @media print
 { 
