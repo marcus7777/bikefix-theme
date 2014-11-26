@@ -10,7 +10,7 @@ help me please :)
 Fork this
 * click the Fork
 
-Play with the css by:
+Play with the css/markup by:
 * right clicking on the thing you would like to fix
 * click on the inspect element
 * make chonge to the css/html
