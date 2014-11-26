@@ -3,7 +3,9 @@ bikefix-theme
 
 bikefix.co.uk's theme (drupal 7)
 
-I'd love to make bikefix nicer/cleaner/simpler
+I'd love to make bikefix nicer/cleaner/simpler/better 
+
+add to the todo here https://github.com/marcus7777/bikefix-theme/issues
 
 help me please :)
 
