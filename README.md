@@ -18,4 +18,5 @@ Play with the css/markup by:
 * make chonge to the css/html
 * see how to looks
 * save/edit your copy of the repo
+* https://github.com/marcus7777/bikefix-theme/edit/master/css/commerce_kickstart_style.css
 * save me a pull request
