@@ -75,7 +75,15 @@
     position: absolute;
 }
 body .view-display-products .inline h2 {
-  margin-top: 100px;
+    background: none repeat scroll 0 0 #000;
+    color: #fff;
+    font-size: 17px;
+    opacity: 0.8;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+    margin-top: 110px;
+    padding: 0 4px;
+    max-width: 294px;
+    position: absolute;
 }
 ul.rslides li h3.headline {
     background: none repeat scroll 0 0 #000;
