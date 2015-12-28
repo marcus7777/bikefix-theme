@@ -1545,14 +1545,15 @@ jQuery(document).ready(function() {
         ul = jQuery('.thumbs .thumbs-inner'),
         ulPadding = 40;
     var divWidth = div.width();
-    if ( ul.find('div:last-child').is('div:last-child') ) {
-      var lastLi = ul.find('div:last-child');
+    if ( ul.find(':last-child').is(':last-child') ) {
+      var lastLi = ul.find(':last-child');
     } else {
-      var lastLi = ul.find('a:last-child');
+      var lastLi = ul.find(':last-child');
     }
     div.mousemove(function (e) {
       var ulWidth = lastLi[0].offsetLeft + lastLi.outerWidth() + ulPadding;
       var left = (e.pageX - div.offset().left) * (ulWidth - divWidth) / divWidth;
+      debugger;
       div.scrollLeft(left);
     });
    },300);
