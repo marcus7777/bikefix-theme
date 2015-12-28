@@ -1538,8 +1538,8 @@ $.fn.cycle.transitions.wipe = function($cont, $slides, opts) {
 };
 
 })(jQuery);
-jQuery(document).ready(function() {
-  jQuery(function () {
+/* jQuery(document).ready(function() {
+ jQuery(function () {
    setTimeout(function(){
     var div = jQuery('.thumbs'),
         ul = jQuery('.thumbs .thumbs-inner'),
@@ -1559,3 +1559,4 @@ jQuery(document).ready(function() {
    },300);
   });
 });
+*/
