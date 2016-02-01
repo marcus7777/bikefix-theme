@@ -194,7 +194,7 @@ canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark
   height: 24px;
   float: right;
 }
-.page-blog .region-content  .view-id-blog ul > li.views-row a > img{
+.page-blog .region-content  .view-id-blog ul > li.views-row .field-name-field-images a > img{
   float: right;
   clear: right;
 }
