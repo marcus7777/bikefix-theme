@@ -185,7 +185,13 @@ canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark
     font: inherit;
     float: right;
 }
-.page-blog .region-content  .view-id-blog .field-name-body {
+.page-blog .region-content  .view-id-blog ul > li.views-row > span{
+  background: black;
+  color: white;
+  width: 220px;
+  display: block;
+  text-align: center;
+  height: 24px;
 }
 .page-blog .region-content .view-id-blog .view-content .views-row  {
   border: medium none;
