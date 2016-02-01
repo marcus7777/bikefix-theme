@@ -188,23 +188,10 @@ canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark
 .page-blog .region-content  .view-id-blog .field-name-body {
 }
 .page-blog .region-content .view-id-blog .view-content .views-row  {
-	   border: medium none;
-	   width: 100%;
-   }
-
-.page-blog .region-content  .view-id-blog .field-name-field-image, 
-.page-blog .region-content  .view-id-blog .field-name-field-images {
-	border: 1px solid #808080;
-	display: inline-block;
-	margin: 10px;
-	padding: 1px;
+  border: medium none;
+  width: 100%;
 }
 
-.page-blog .region-content  .view-id-blog .field-name-field-image:hover, 
-.page-blog .region-content  .view-id-blog .field-name-field-images:hover {
-  border:4px solid #999999 ;  
-  margin:7px;
-}
 
 .page-blog .region-content  .view-id-blog .views-field-title h1 {
   text-indent: 0;
