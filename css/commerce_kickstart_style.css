@@ -3,6 +3,9 @@
  * * 10. marcus adding
  * * --
  ***************************************************/
+html body .item-list ul.pager li {
+  padding: 6px 10px;
+}
 .ui-accordion .ui-accordion-content-active {
     display: block;
     font-size: 0.7em;
