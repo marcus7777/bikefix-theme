@@ -3,6 +3,12 @@
  * * 10. marcus adding
  * * --
  ***************************************************/
+html body .pager li.pager-first a,
+html body .pager li.pager-previous a,
+html body .pager li.pager-next a,
+html body .pager li.pager-last a {
+    width: 100px;
+} 
 html body .item-list ul.pager li {
   padding: 6px 10px;
 }
