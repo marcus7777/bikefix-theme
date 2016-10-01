@@ -152,6 +152,9 @@ iframe {max-width: 100%;}
 	display:inline-block;
 /*	margin: 0 0 0 8px; */
 }
+.blog_view {
+  margin: 0 24px;
+}
 /**************************************************
  * * --
  * * 11. david adding
