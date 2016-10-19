@@ -3,18 +3,9 @@
  * * 10. marcus adding
  * * --
  ***************************************************/
-html body .pager li.pager-first a,
-html body .pager li.pager-previous a,
-html body .pager li.pager-next a,
-html body .pager li.pager-last a {
-    width: 100px;
-} 
-html body .item-list ul.pager li {
-  padding: 6px 10px;
-}
 .ui-accordion .ui-accordion-content-active {
     display: block;
-    font-size: 0.7em;
+    font-size: 0.7em;:
 }
 .popOut .ui-accordion {
     margin-bottom: 20px;
@@ -191,7 +182,6 @@ a:link, a:visited {
 h3 {
     font-size: 18px;
     font-weight: 500;
-
 }
 canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark, audio, video {
     font: inherit;
