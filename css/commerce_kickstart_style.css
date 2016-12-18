@@ -7,22 +7,22 @@ html body .pager li.pager-first a,
 html body .pager li.pager-previous a,
 html body .pager li.pager-next a,
 html body .pager li.pager-last a {
-    width: 100px;
+  width: 100px;
 } 
 html body .item-list ul.pager li {
   padding: 6px 10px;
 }
 .ui-accordion .ui-accordion-content-active {
-    display: block;
-    font-size: 0.7em;
+  display: block;
+  font-size: 0.7em;
 }
 .popOut .ui-accordion {
-    margin-bottom: 20px;
-    margin-left: 1%;
-    width: 98%;
+  margin-bottom: 20px;
+  margin-left: 1%;
+  width: 98%;
 }
 .ui-accordion .ui-accordion-header a {
-	display: block;
+  display: block;
 	font-size: 0.62em;
 	padding: 0.2em !important;
 	text-indent: 2.7em;
@@ -152,7 +152,7 @@ iframe {max-width: 100%;}
 	display:inline-block;
 /*	margin: 0 0 0 8px; */
 }
-.blog_view {
+.view-blog {
   margin: 0 24px;
 }
 /**************************************************
@@ -198,23 +198,27 @@ canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark
     float: right;
 }
 .page-blog .region-content  .view-id-blog ul > li.views-row > span{
-  background: black;
-  color: white;
+  color: #ff7321;
   width: 220px;
   display: block;
   text-align: center;
   height: 24px;
   float: right;
 }
-.page-blog .region-content  .view-id-blog ul > li.views-row .field-name-field-images a > img{
-  float: right;
-  clear: right;
+.page-blog .region-content  .view-id-blog ul > li.views-row .field-name-field-image a > img{
+  border-radius: 5px;
+}
+.page-blog .region-content  .view-id-blog ul > li.views-row .field-name-field-image {
+  text-align: center;
+  margin-bottom: 18px;
 }
 .page-blog .region-content .view-id-blog .view-content .views-row  {
   border: medium none;
   width: 100%;
 }
-
+body.page-blog .page {
+  background: #494949;
+}
 
 .page-blog .region-content  .view-id-blog .views-field-title h1 {
   text-indent: 0;
@@ -222,9 +226,8 @@ canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark
 .page-blog .region-content  .view-id-blog .views-field-created {
   background: none repeat scroll 0 0 #555555;
   border-radius: 5px 5px 5px 5px;
-  clear: right;
   color: #FFFFFF;
-  float: right;
+  float: left;
   margin: 16px 6px;
   padding: 3px 7px;
 }
