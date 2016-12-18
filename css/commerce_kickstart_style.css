@@ -15,6 +15,9 @@ html body .item-list ul.pager li {
 .ui-accordion .ui-accordion-content-active {
   display: block;
   font-size: 0.7em;
+.ui-accordion .ui-accordion-content-active {
+    display: block;
+    font-size: 0.7em;:
 }
 .popOut .ui-accordion {
   margin-bottom: 20px;
@@ -191,7 +194,6 @@ a:link, a:visited {
 h3 {
     font-size: 18px;
     font-weight: 500;
-
 }
 canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark, audio, video {
     font: inherit;
