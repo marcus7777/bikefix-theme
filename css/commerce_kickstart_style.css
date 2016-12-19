@@ -133,14 +133,15 @@ body p {color: #58595b; font-family:'Lato',Helvetica,Arial,sans-serif; line-heig
 body .item-list ul li.inline {margin: 0; padding: 0;}
 .form-item-line-item-fields-field-options-picked-er-und {display:none}
 .thumbs div {
-    height:60px;
-    width:3000px
+  height:60px;
+  width:3000px;
+  display:inline-block;
 }
 .thumbs {
-    height: 60px;
-    overflow: hidden;
-    width: 100%;
-    margin-top: 10px;
+  height: 60px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
 }
 .thumbs div a {
   padding:0 2px;
