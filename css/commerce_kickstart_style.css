@@ -214,7 +214,8 @@ canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark
 }
 .page-blog .region-content  .view-id-blog ul > li.views-row .field-name-field-image {
   text-align: center;
-  margin-bottom: 18px;
+  margin-bottom: 8px;
+  margin-right: 25px;
 }
 .page-blog .region-content .view-id-blog .view-content .views-row  {
   border: medium none;
