@@ -134,10 +134,10 @@ body .item-list ul li.inline {margin: 0; padding: 0;}
 .form-item-line-item-fields-field-options-picked-er-und {display:none}
 .thumbs div {
   height:60px;
-  width:3000px;
   display:inline-block;
 }
 .thumbs {
+  width:3000px; 	
   height: 60px;
   overflow: hidden;
   width: 100%;
