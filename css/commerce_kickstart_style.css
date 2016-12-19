@@ -132,7 +132,7 @@ ul.rslides li h4.tagline {
 body p {color: #58595b; font-family:'Lato',Helvetica,Arial,sans-serif; line-height:1.4em; }
 body .item-list ul li.inline {margin: 0; padding: 0;}
 .form-item-line-item-fields-field-options-picked-er-und {display:none}
-.thumbs .thumbs-inner {
+.thumbs div {
     height:60px;
     width:3000px
 }
@@ -142,7 +142,7 @@ body .item-list ul li.inline {margin: 0; padding: 0;}
     width: 100%;
     margin-top: 10px;
 }
-.thumbs .thumbs-inner div {
+.thumbs div a {
   padding:0 2px;
 }
 
