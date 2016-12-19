@@ -234,6 +234,7 @@ body.page-blog .page {
   margin: 16px 6px;
   padding: 3px 7px;
   position: absolute;
+  z-index: 99;
 }
 
 .node-type-blog-post h1#page-title, .node-type-blog-post .comment-wrapper .title {
