@@ -233,6 +233,7 @@ body.page-blog .page {
   float: left;
   margin: 16px 6px;
   padding: 3px 7px;
+  position: absolute;
 }
 
 .node-type-blog-post h1#page-title, .node-type-blog-post .comment-wrapper .title {
